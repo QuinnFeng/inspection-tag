@@ -61,7 +61,8 @@
   width: 9rem;
   height: 9rem;
   position: absolute;
-  background-color: gainsboro;
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.15);
   z-index: 2;
 }
 
@@ -103,8 +104,8 @@
 }
 
 .asterisk span {
-  font-size: 1.5rem;
-  height: 2rem;
+  font-size: 1.25rem;
+  height: 1.6rem;
 }
 
 .number {
@@ -125,9 +126,9 @@
 }
 
 .No {
-  margin-right: 1.75rem;
-  font-weight: 700;
-  font-family: "Fraunces", serif;
+  margin-right: 2rem;
+  font-weight: 500;
+  font-family: "Noto Sans SC", sans-serif;
   font-size: 2rem;
 }
 
@@ -135,8 +136,6 @@
   width: 100%;
   height: auto;
   background-color: #d7e9ec;
-  /* background: url(./assets/it-footer.png); */
-  /* background-repeat: repeat-x; */
   background: cover;
   display: flex;
   justify-content: space-around;
@@ -145,7 +144,8 @@
 }
 
 .bottom span {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   color: var(--yellow);
+  font-family: "Francois One", sans-serif;
 }
