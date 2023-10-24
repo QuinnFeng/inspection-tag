@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--yellow);
+  background-color: var(--green);
 }
 
 .top {
@@ -112,7 +112,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: rgb(175, 175, 175);
+  background-color: #bebdb9;
 }
 
 .barcode {
@@ -133,7 +133,7 @@
   font-size: 2rem;
 }
 
-.bottom {
+/* .bottom {
   width: 100%;
   background-color: rgb(242, 255, 255);
   display: flex;
@@ -145,6 +145,14 @@
 .bottom span {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--yellow);
+  color: var(--green);
   font-family: "Francois One", sans-serif;
+} */
+
+.bottom {
+  width: 100%;
+  height: 4rem;
+  background-image: url("./assets/bottom-bg.png");
+  background-size: 100% 100%;
+  background-position: center;
 }

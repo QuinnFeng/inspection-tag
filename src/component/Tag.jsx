@@ -59,9 +59,9 @@ const Tag = () => {
           <span className="No">No.1576892</span>
         </div>
         <div className="bottom">
-          {Array.from({ length: 6 }, (element, index) => (
+          {/* {Array.from({ length: 6 }, (element, index) => (
             <span key={index}>{year}</span>
-          ))}
+          ))} */}
         </div>
       </div>
     </>
