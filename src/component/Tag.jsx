@@ -1,7 +1,7 @@
 import { images } from "../assets/Image";
 
 const Tag = () => {
-  const year = 2024;
+  const year = 2025;
   const month = 10;
   const asterisk_count = 5;
 
